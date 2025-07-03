@@ -2,3 +2,43 @@
     font-family: 'Norse';
     src: url('fonts/Norse-Bold.otf');
 }
+
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+.sidebar {
+    width: 45%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.left-footer {
+    margin-top: auto;
+    padding: 10px;
+    color: #D3D3D3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.logo-display {
+    padding: 10px;
+    display: flex;
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Norse';
+    font-size: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
