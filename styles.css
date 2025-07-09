@@ -47,3 +47,24 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+.intro-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #F5F5F5;
+    color: #424242;
+    padding: 100px 100px 50px 40px;
+}
+
+.form-section {
+    padding: 50px;
+}
+
+.create-section {
+    background-color: #F5F5F5;
+    padding: 50px;
+}
