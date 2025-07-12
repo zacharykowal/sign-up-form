@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -27,37 +30,36 @@
         <div class="form-section">
             <p>Let's do this!</p>
             <form action="" method="post" id="form-1">
-
-                <div class="form-group">
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first-name">
+                <div class="flex-container">
+                    <div class="form-group">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name">
+                <div class="flex-container">
+                    <div class="form-group">
+                        <label for="user-email">EMAIL</label>
+                        <input type="email" id="user-email" name="user-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="user-phone">PHONE NUMBER</label>
+                        <input type="tel" id="user-phone" name="user-phone">
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="user-email">EMAIL</label>
-                    <input type="email" id="user-email" name="user-email">
+                <div class="flex-container">
+                    <div class="form-group">
+                        <label for="user-password">PASSWORD</label>
+                        <input type="password" id="user-password" name="user-password" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-user-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-user-password" name="confirm-user-password" required>
+                    </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="user-phone">PHONE NUMBER</label>
-                    <input type="tel" id="user-phone" name="user-phone">
-                </div>
-
-                <div class="form-group">
-                    <label for="user-password">PASSWORD</label>
-                    <input type="password" id="user-password" name="user-password">
-                </div>
-
-                <div class="form-group">
-                    <label for="confirm-user-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-user-password" name="confirm-user-password">
-                </div>
-
             </form>
         </div>
         <div class="create-section">
