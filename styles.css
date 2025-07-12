@@ -62,9 +62,37 @@ body {
 
 .form-section {
     padding: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .create-section {
+    font-family: sans-serif;
     background-color: #F5F5F5;
-    padding: 50px;
+    padding: 30px 50px 50px 50px;
+    box-shadow: inset rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    flex: 1;
+}
+
+.create-section p {
+    font-size: 14px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #596D48;
+    color: #F9FAF8;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 45px 10px 45px;
+    margin-bottom: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
 }
